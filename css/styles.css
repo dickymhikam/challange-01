@@ -1,0 +1,750 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-style: normal;
+}
+
+.container-fluid {
+    padding: 0 ;
+    margin: 0 ;
+}
+
+.center-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vh-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.v-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-section {
+    background-color: #F1F3FF;
+}
+
+.navbar {
+    background-color: #F1F3FF;
+}
+.navbar-brand{
+    background-color: blue;
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.navigation-section .navbar-nav .nav-item a:hover {
+    color: blue ;
+}
+
+.nav-position {
+    position: relative;
+    top: 24px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000 ;
+    border-color: #000000;
+}
+
+.btn-all {
+    height: 36px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    background-color: #5CB85F;
+}
+
+.hero-section {
+    padding-top: 97px;
+}
+
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Helvetica;
+    padding-bottom: 40px;
+}
+
+.hero-desc h1 {
+    max-width: 568px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.hero-desc p {
+    max-width: 468px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.hero-image {
+    padding: 0;
+}
+
+.img-car {
+    width: 49.46vw;
+}
+
+.our-services-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img-service {
+    margin-bottom: 50px;
+    padding: 0 2rem;
+}
+
+.img-service img{
+    max-width: 100%;
+    float: right;
+}
+
+.desc-service {
+    max-width: 558px;
+    padding: 0 2rem;
+}
+
+.our-services-section .desc-service h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 24px;
+}
+
+.our-services-section .desc-service p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.our-services-section .desc-service li {
+    padding-left: 20px;
+    margin: 20px 0;
+    list-style: none;
+    background-image: url("../img/checkbox.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 45px;
+}
+
+.why-us-section h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 16px;
+}
+
+.why-us-section p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.card {
+    width: 278px;
+    height: 216px;
+    border: 2px solid #D0D0D0;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.icon-why-us {
+    width: 32px;
+    height: 32px;
+
+}
+
+.why-us-section .card h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 0;
+}
+
+.why-us-section .card p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.testimony-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.testimony-section .opening-text-testimony h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.testimony-section .opening-text-testimony p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.testi-box {
+    max-width: 619px;
+    background-color: #F1F3FF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.testi-box img {
+    width: 80px ;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.text-review {
+    padding-top: 69px;
+    padding-bottom: 69px;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    width: 32px;
+}
+
+.testi-box .text-review .star img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 8px;
+}
+
+.testi-box p {
+    font-weight: 300 ;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.testi-box h5 {
+    font-weight: 1000 ;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.owl-prev, .owl-next {
+    margin: 10px;
+}
+
+.next-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+.next-slide:hover {
+    color: white;
+    background-color: #5CB85F;
+    border: 1px solid #5CB85F;
+}
+
+.prev-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+.prev-slide:hover {
+    color: white;
+    background-color: #5CB85F;
+    border: 1px solid #5CB85F;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D28A6;
+    width: 100%;
+    min-height: 326px;
+    color: #FFFFFF;
+    border-radius: 13px;
+    padding: 30px;
+}
+
+.call-to-action h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.call-to-action p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 52px;
+    max-width: 470px;
+}
+
+.faq-section {
+    margin-top: 100px;
+}
+
+.faq-intro h2 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.faq-intro p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.list-questions {
+    font-weight: 300 ;
+    font-size: 14px ;
+    line-height: 20px ;
+}
+
+.accordion-box {
+    width: 100%;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #D4D4D4;
+    margin-bottom: 16px;
+}
+
+.footer-section {
+    margin-top: 100px;
+    margin-bottom: 76px;
+    font-weight: 300 ;
+    font-size: 14px ;
+    line-height: 20px ;
+}
+
+.footer-section h5 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.footer-section .navigation li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-section .navigation a {
+    position: relative;
+    right: 32px;
+}
+
+.footer-section .navigation li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-section .navigation li a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-section .sosmed li {
+    position: relative;
+    left: -30px;
+    float: left;
+    list-style: none;
+    padding-right: 10px;
+    padding-bottom: 16px;
+}
+
+.footer-section .sosmed li img:hover {
+    opacity: 60%;
+}
+
+.address {
+    display: block;
+}
+
+.footer-section .copyright img {
+    width: 120px;
+}
+
+@media only screen and (min-width: 0) and (max-width: 1500px) {
+    .img-car {
+        width: 100%;
+    }
+}
+
+/* handphone */
+/* Smartphone View */
+@media only screen and (max-width: 576px) {
+    body {
+      width: 100%;
+    }
+    /* Awal Navbar */
+    .logo {
+      position: absolute;
+      width: 100px;
+      height: 34px;
+      margin-left: 16px;
+      margin-top: 24px;
+    }
+  
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+      position: absolute;
+      right: 0px;
+      top: 18px;
+    }
+  
+    .hero {
+      position: absolute;
+      width: 100%;
+      height: 657px;
+      left: 0px;
+      top: 0px;
+      background: #f1f3ff;
+    }
+    /* Akhir Navbar */
+  
+    /* Awal Intro & button  */
+    .intro h1 {
+      width: 328px;
+      height: 216px;
+  
+      margin-top: 90px;
+      margin-left: 16px;
+      margin-right: 16px;
+  
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 150%;
+  
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  
+    .intro h6 {
+      width: 328px;
+      height: 60px;
+  
+      margin-left: 16px;
+      margin-right: 16px;
+  
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+  
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  
+    .intro button {
+      box-sizing: border-box;
+      border-color: #ffffff;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 12px;
+      gap: 10px;
+  
+      position: absolute;
+      width: 140px;
+      height: 36px;
+      margin-left: 16px;
+      top: 398px;
+  
+      background: #5cb85f;
+      border-radius: 2px;
+    }
+  
+    .intro p {
+      width: 116px;
+      height: 20px;
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 20px;
+  
+      margin-top: 8px;
+      margin-bottom: 8px;
+      margin-left: 12px;
+      margin-right: 12px;
+  
+      color: #ffffff;
+  
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+    }
+    /* Akhir Intro & button  */
+  
+    /* Awal Mobil */
+    .mobil {
+      position: absolute;
+      width: 344.22px;
+      height: 199px;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      left: 16px;
+      right: 16px;
+      top: 458px;
+    }
+    /* Akhir Mobil */
+  
+    /* Awal Section Our Service*/
+  
+    .our-service {
+      position: absolute;
+      height: 194.97px;
+      top: 717px;
+    }
+  
+    .container-our {
+      position: absolute;
+      width: 100%;
+      height: 199px;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      left: 16px;
+      right: 16px;
+      top: 458px;
+    }
+  
+    .head-our h1 {
+      width: 500px;
+      height: 72px;
+  
+      margin-top: 15px;
+      margin-left: 16px;
+      margin-right: 16px;
+  
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 36px;
+  
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  
+    .head-our h6 {
+      width: 500px;
+      height: 100px;
+  
+      margin-top: 16px;
+      margin-left: 16px;
+      margin-right: 16px;
+  
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 20px;
+  
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  
+    .list-our {
+      width: 500px;
+    }
+  
+    .list-our img {
+      margin-right: 20px;
+    }
+  
+    .list-our p {
+      height: 20px;
+  
+      margin-top: 30px;
+      margin-left: 56px;
+  
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 19px;
+      line-height: 20px;
+  
+      color: #000000;
+  
+      flex: none;
+      order: 1;
+      flex-grow: 1;
+    }
+    /* Awal Section Our Service*/
+  
+    /* Awal Section Why Us? */
+    .why-us {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 16px;
+  
+      position: absolute;
+      width: 328px;
+      height: 792px;
+      left: 16px;
+      top: 1713px;
+    }
+  
+    .container-item-whyus1,
+    .container-item-whyus2,
+    .container-item-whyus3,
+    .container-item-whyus4 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px;
+      gap: 16px;
+  
+      width: 328px;
+      height: 176px;
+  
+      border: 1px solid #d0d0d0;
+      border-radius: 8px;
+  
+      flex: none;
+      order: 0;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  
+    .container-item-whyus1 h6,
+    .container-item-whyus2 h6,
+    .container-item-whyus3 h6,
+    .container-item-whyus4 h6 {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+  
+      color: #000000;
+  
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+  
+    .container-item-whyus1 p,
+    .container-item-whyus2 p,
+    .container-item-whyus3 p,
+    .container-item-whyus4 p {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 20px;
+  
+      color: #000000;
+  
+      flex: none;
+      order: 2;
+      align-self: stretch;
+      flex-grow: 0;
+    }
+
+    .testi-box img{
+        width: 20px ;
+        height: 200px;
+        border-radius: 100%
+    }
+  
+    /* Akhir Section Why Us? */
+}
+  
